@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rest Assured Capstone Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.restassured.capstone.listeners.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="5" name="GoRest API Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.restassured.capstone.tests.PostApiTests">
+        <methods>
+          <include name="baseSetup"/>
+          <include name="deleteOwnerUser"/>
+          <include name="getProductDetails"/>
+          <include name="createOwnerUser"/>
+        </methods>
+      </class> <!-- com.restassured.capstone.tests.PostApiTests -->
+    </classes>
+  </test> <!-- GoRest API Tests(failed) -->
+</suite> <!-- Failed suite [Rest Assured Capstone Suite] -->

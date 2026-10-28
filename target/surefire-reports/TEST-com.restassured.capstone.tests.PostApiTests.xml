@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.restassured.capstone.tests.PostApiTests" time="10.969" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\vennela.vangapally\Documents\RestAssured-Capstone\target\test-classes;C:\Users\vennela.vangapally\Documents\RestAssured-Capstone\target\classes;C:\Users\vennela.vangapally\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vennela.vangapally\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vennela.vangapally\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vennela.vangapally\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vennela.vangapally\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vennela.vangapally\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\vennela.vangapally\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\vennela.vangapally\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vennela.vangapally\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\vennela.vangapally\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vennela.vangapally\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vennela.vangapally\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vennela.vangapally\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\vennela.vangapally\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\vennela.vangapally\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\vennela.vangapally\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\vennela.vangapally\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\vennela.vangapally\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vennela.vangapally\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\vennela.vangapally\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\vennela.vangapally\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\vennela.vangapally\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\vennela.vangapally\AppData\Local\Temp\surefire17755201254539924112\surefirebooter-20261028120045286_3.jar C:\Users\vennela.vangapally\AppData\Local\Temp\surefire17755201254539924112 2026-10-28T12-00-44_367-jvmRun1 surefire-20261028120045286_1tmp surefire_0-20261028120045286_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="PostApiTests#getProductList"/>
+    <property name="surefire.test.class.path" value="C:\Users\vennela.vangapally\Documents\RestAssured-Capstone\target\test-classes;C:\Users\vennela.vangapally\Documents\RestAssured-Capstone\target\classes;C:\Users\vennela.vangapally\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vennela.vangapally\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vennela.vangapally\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vennela.vangapally\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\vennela.vangapally\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vennela.vangapally\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\vennela.vangapally\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\vennela.vangapally\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\vennela.vangapally\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\vennela.vangapally\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\vennela.vangapally\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vennela.vangapally\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vennela.vangapally\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\vennela.vangapally\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\vennela.vangapally\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\vennela.vangapally\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\vennela.vangapally\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\vennela.vangapally\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\vennela.vangapally\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vennela.vangapally\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\vennela.vangapally\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\vennela.vangapally\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\vennela.vangapally\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vennela.vangapally"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-10-20"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\vennela.vangapally\Documents\RestAssured-Capstone"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vennela.vangapally\AppData\Local\Temp\surefire17755201254539924112\surefirebooter-20261028120045286_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.5+8-LTS"/>
+    <property name="user.name" value="vennela.vangapally"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.5+8"/>
+    <property name="localRepository" value="C:\Users\vennela.vangapally\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\VENNEL~1.VAN\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.5"/>
+    <property name="user.dir" value="C:\Users\vennela.vangapally\Documents\RestAssured-Capstone"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files (x86)\Common Files\Pulse Secure\TNC Client Plugin\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\php;C:\ProgramData\ComposerSetup\bin;C:\Tools\apache-maven-3.9.x\apache-maven-3.10.0\bin;C:\Users\vennela.vangapally\AppData\Local\Microsoft\WindowsApps;C:\Users\vennela.vangapally\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\vennela.vangapally\AppData\Roaming\npm;C:\Users\vennela.vangapally\.local\bin;C:\Users\vennela.vangapally\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\vennela.vangapally\AppData\Roaming\Composer\vendor\bin;c:\Users\vennela.vangapally\.vscode\extensions\vscjava.vscode-java-debug-0.60.0\bundled\scripts\noConfigScripts;c:\Users\vennela.vangapally\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\vennela.vangapally\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.5+8-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="getProductList" classname="com.restassured.capstone.tests.PostApiTests" time="4.504">
+    <system-out><![CDATA[Running against environment: QA  |  Base URL: https://gorest.co.in/
+HTTP/1.1 200 OK
+Date: Wed, 28 Oct 2026 06:30:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+content-security-policy-report-only: default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'nonce-e5yOQ2GMpU/aiWLjf1zljg=='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+etag: W/"ca3fe23f584c6c3ba0546408a7d64576"
+feature-policy: camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+referrer-policy: strict-origin-when-cross-origin
+strict-transport-security: max-age=63072000; includeSubDomains
+vary: Origin
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-links-current: https://gorest.co.in/public/v2/posts?page=1
+x-links-next: https://gorest.co.in/public/v2/posts?page=2
+x-links-previous: 
+x-pagination-limit: 10
+x-pagination-page: 1
+x-pagination-pages: 298
+x-pagination-total: 2980
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 300
+x-ratelimit-remaining: 299
+x-ratelimit-reset: 0
+x-request-id: 1adddbc6-603c-4c4d-a667-1a41bcce1f32
+x-runtime: 0.064780
+x-xss-protection: 0
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xBeCA7Ql7W%2BVgmuvvXB1fu%2FNNayIzGF1A754QaD%2B%2F3821aBT3dCvfLuMV9yVKB1j8NOPzUJWkmOM5s5xOC7TtsL7Hb0iaSQXyzfxPPim44TGFP%2F%2BNnPcNAwIR1AEFbI%3D"}]}
+Content-Encoding: gzip
+Server: cloudflare
+CF-RAY: a517e4f60cf0edad-BOM
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 297244,
+        "user_id": 8686860,
+        "title": "Et alter capio decerno damno denego demoror patruus.",
+        "body": "Sodalitas amet volubilis. Allatus curriculum tabgo. Tribuo aggredior anser. Video torqueo canto. Careo claustrum debeo. Consequatur ad averto. Dolorem cerno conitor. Teres odio et. Ullus accedo utrum. Defendo aptus coadunatio. Autem allatus tabernus. Vox absum crudelis. Utrum facilis amissio. Antiquus basium subvenio. Vel conforto casso. Aestas angulus credo. Vir aut vestigium. Voluptatem conventus curto."
+    },
+    {
+        "id": 297243,
+        "user_id": 8686860,
+        "title": "Contego solitudo corpus agnitio somniculosus ciminatio virga tempora.",
+        "body": "Patrocinor cenaculum usque. Via blanditiis certo. Aut tonsor altus. Torqueo cruentus reiciendis. Recusandae rerum cum. Usus adimpleo possimus. Viridis verbera suscipio. Carmen caelum caterva. Qui adficio urbanus. Turbo consequuntur terga. Volo crur combibo. Cometes unde cohaero. Trado talis coadunatio. Articulus adsuesco canonicus. Aetas suscipit vulpes. Arx aequus tempora. Colloco barba constans. Atqui venia peior. Amet voluntarius conculco."
+    },
+    {
+        "id": 297242,
+        "user_id": 8686859,
+        "title": "Recusandae nihil trucido conscendo ullam amplitudo eum consequatur.",
+        "body": "Comitatus supra vestigium. Mollitia laboriosam xiphias. Verto torrens caelestis. Vultuosus careo textus. Alienus defero et. Clam solvo thesis. Quisquam adflicto decumbo. Vacuus defetiscor sufficio. Adsuesco nulla vita. Crux amiculum decor. Suggero cursus ciminatio. Utpote tribuo crur. Aequitas terminatio culpo. Caritas verecundia attonbitus. Cupiditas solus canonicus. Benevolentia utilis clementia. Eveniet depromo adnuo. Statim torrens vitae. Uxor repellat alius."
+    },
+    {
+        "id": 297241,
+        "user_id": 8686859,
+        "title": "Titulus termes conor sperno comminor cupiditate paulatim.",
+        "body": "Delectus sponte ustulo. Vere articulus spargo. Delicate custodia sursum. Tam credo cur. Peccatus despirmatio tempore. Cum et demulceo. Attollo validus id. Ducimus bardus accusamus. Uredo absque statim. Video vehemens velit. Aestas voluptate cum."
+    },
+    {
+        "id": 297240,
+        "user_id": 8686858,
+        "title": "Benevolentia est armo antepono comparo voluptatem carbo vilitas.",
+        "body": "Pecunia vita accommodo. Somniculosus sui contabesco. Ipsa voveo adstringo. Repellendus pecunia vapulus. Caries aut quo. Deserunt decumbo bellicus. Auxilium clibanus dedico. Volubilis creator doloribus. Tergo compello perferendis. Sortitus comis cornu. Compono vado cedo. Super depulso non. Caelestis ultra appositus. Acerbitas adsidue pariatur. Distinctio rerum vivo. Suus decipio aqua. Decumbo vox vicinus."
+    },
+    {
+        "id": 297239,
+        "user_id": 8686857,
+        "title": "Atque turba antepono auctor tenus canonicus.",
+        "body": "Cogito testimonium calculus. Tandem vado super. Circumvenio comedo depopulo. Cotidie uter suppono. Usitas appono cetera. Temporibus cura blandior. Eveniet sponte deleo. Doloremque cernuus tamdiu. Vomito accipio toties. Talus sufficio ut. Tui vicissitudo suppellex. Dignissimos stips dedico. Rem aut curso. Ambulo universe tripudio. Nesciunt volaticus textor. Accedo deficio adstringo. Cerno adeo curiositas. Suffoco occaecati comburo. Decet coma aufero."
+    },
+    {
+        "id": 297238,
+        "user_id": 8686856,
+        "title": "Succedo trepide libero et adaugeo crastinus eos accedo crinis.",
+        "body": "Dedecor cum mollitia. Subito curvus verbera. Supra strenuus cavus. Cui una ducimus. Vicinus caute adicio. Et magni spectaculum. Vergo tertius vitium. Utpote aestivus dolorem. Defungo ut rerum. Beatae vero sollicito."
+    },
+    {
+        "id": 297237,
+        "user_id": 8686854,
+        "title": "Excepturi asperiores antea turbo umbra.",
+        "body": "Combibo sit crur. Vilis vel temperantia. Vomer coniuratio damnatio. Et calculus spes. Voluptate pauper tui. Summa modi despirmatio. Fugiat adimpleo templum. Pauci stipes vestrum. Bene subiungo voluptatem. Inventore non sulum. Vorax cohibeo totidem. Vehemens creo perspiciatis. Crustulum acervus ceno. Pectus doloremque cetera. Defendo clarus crinis. Ventito vel est. Appositus cernuus sint."
+    },
+    {
+        "id": 297236,
+        "user_id": 8686853,
+        "title": "Crepusculum summisse sulum spes enim caveo.",
+        "body": "Sufficio cruciamentum barba. Rerum cuius urbanus. Error cuius terror. Accommodo vesper aduro. Triduana sol arca. Totidem pecunia coniecto. Argentum tenetur delibero. Thermae valeo universe. Inventore spoliatio omnis. Sto uberrime eveniet. Ut villa colo. Armarium templum demoror. Denego voluptas appono. Consectetur sit color. A denuo amaritudo. Cogo utique angelus. Praesentium est tenax. Strenuus spiculum trucido."
+    },
+    {
+        "id": 297235,
+        "user_id": 8686852,
+        "title": "Cui denego stella conduco civitas sulum.",
+        "body": "Arma ara crapula. Valde bis absorbeo. Denego rem defessus. Vulpes numquam fugiat. Ratione magni carcer. Et sed terreo. Spoliatio venia curvo. Cursus audentia adeo. Titulus suadeo asper. Nam assentator taedium. Porro eveniet damno. Aedificium approbo uterque. Demens alius audacia. Ut deludo temperantia. Tres vulgivagus spectaculum. Ut desparatus infit. Quam sollers non. Certus acervus voluptatem. Laboriosam clam crastinus."
+    }
+]
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

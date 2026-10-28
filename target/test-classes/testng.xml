@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!--
+  TestNG suite file - tells TestNG WHAT to run and which listener to use.
+  Maven Surefire reads this file (see pom.xml) when you run "mvn test".
+-->
+<suite name="Rest Assured Capstone Suite" verbose="1">
+
+    <!-- Listener that writes the Extent HTML report (target/extent-report/ExtentReport.html) -->
+    <listeners>
+        <listener class-name="com.restassured.capstone.listeners.ExtentTestListener"/>
+    </listeners>
+
+    <test name="GoRest API Tests">
+        <classes>
+            <class name="com.restassured.capstone.tests.UserApiTests"/>   <!-- 5 user tests -->
+            <class name="com.restassured.capstone.tests.PostApiTests"/>   <!-- 5 product/post tests -->
+        </classes>
+    </test>
+</suite>

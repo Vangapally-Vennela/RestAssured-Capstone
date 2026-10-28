@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Rest Assured Capstone Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Rest_Assured_Capstone_Suite" class="navigator-link ">
+                    <span>C:\Users\vennela.vangapally\Documents\RestAssured-Capstone\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Rest_Assured_Capstone_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Rest_Assured_Capstone_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Rest_Assured_Capstone_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Rest_Assured_Capstone_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Rest_Assured_Capstone_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Rest_Assured_Capstone_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" class="hide-methods passed suite-Rest_Assured_Capstone_Suite"> (hide)</a> <!-- hide-methods passed suite-Rest_Assured_Capstone_Suite -->
+                      <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" class="show-methods passed suite-Rest_Assured_Capstone_Suite"> (show)</a> <!-- show-methods passed suite-Rest_Assured_Capstone_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Rest_Assured_Capstone_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.PostApiTests" class="method navigator-link" hash-for-method="commentsOnPost">commentsOnPost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.PostApiTests" class="method navigator-link" hash-for-method="createPostForUser">createPostForUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.UserApiTests" class="method navigator-link" hash-for-method="createUser">createUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.UserApiTests" class="method navigator-link" hash-for-method="deleteUser">deleteUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.UserApiTests" class="method navigator-link" hash-for-method="getAllUsers">getAllUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.PostApiTests" class="method navigator-link" hash-for-method="getProductDetails">getProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.PostApiTests" class="method navigator-link" hash-for-method="getProductList">getProductList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.UserApiTests" class="method navigator-link" hash-for-method="getUserById">getUserById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.PostApiTests" class="method navigator-link" hash-for-method="searchProduct">searchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Rest_Assured_Capstone_Suite" title="com.restassured.capstone.tests.UserApiTests" class="method navigator-link" hash-for-method="updateUser">updateUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Rest_Assured_Capstone_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Rest_Assured_Capstone_Suite" class="panel Rest_Assured_Capstone_Suite">
+          <div class="suite-Rest_Assured_Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.capstone.tests.UserApiTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUser">
+                  </a> <!-- createUser -->
+                  <span class="method-name">createUser</span>
+                  <em>
+(Create a new user (POST /users))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUser">
+                  </a> <!-- deleteUser -->
+                  <span class="method-name">deleteUser</span>
+                  <em>
+(Delete user (DELETE /users/{id}))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllUsers">
+                  </a> <!-- getAllUsers -->
+                  <span class="method-name">getAllUsers</span>
+                  <em>
+(Get all users (GET /users))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserById">
+                  </a> <!-- getUserById -->
+                  <span class="method-name">getUserById</span>
+                  <em>
+(Get user by ID (GET /users/{id}))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUser">
+                  </a> <!-- updateUser -->
+                  <span class="method-name">updateUser</span>
+                  <em>
+(Update user (PUT /users/{id}))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_Assured_Capstone_Suite-class-passed -->
+          <div class="suite-Rest_Assured_Capstone_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.restassured.capstone.tests.PostApiTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="commentsOnPost">
+                  </a> <!-- commentsOnPost -->
+                  <span class="method-name">commentsOnPost</span>
+                  <em>
+(Add and read comments on a post (/posts/{id}/comments))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPostForUser">
+                  </a> <!-- createPostForUser -->
+                  <span class="method-name">createPostForUser</span>
+                  <em>
+(Create a post for a user (POST /users/{id}/posts))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductDetails">
+                  </a> <!-- getProductDetails -->
+                  <span class="method-name">getProductDetails</span>
+                  <em>
+(Get product details (GET /posts/{id}))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProductList">
+                  </a> <!-- getProductList -->
+                  <span class="method-name">getProductList</span>
+                  <em>
+(Get product list (GET /posts))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct">
+                  </a> <!-- searchProduct -->
+                  <span class="method-name">searchProduct</span>
+                  <em>
+(Search product by name (GET /posts?title=...))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rest_Assured_Capstone_Suite-class-passed -->
+        </div> <!-- panel Rest_Assured_Capstone_Suite -->
+        <div panel-name="test-xml-Rest_Assured_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vennela.vangapally\Documents\RestAssured-Capstone\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Rest Assured Capstone Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.restassured.capstone.listeners.ExtentTestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;GoRest API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.restassured.capstone.tests.UserApiTests&quot;/&gt;
+      &lt;class name=&quot;com.restassured.capstone.tests.PostApiTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GoRest API Tests --&gt;
+&lt;/suite&gt; &lt;!-- Rest Assured Capstone Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Rest_Assured_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Rest Assured Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GoRest API Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Rest_Assured_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Rest Assured Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Rest_Assured_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Rest Assured Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Rest_Assured_Capstone_Suite');
+function tableData_Rest_Assured_Capstone_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createUser')
+data.setCell(0, 2, 'com.restassured.capstone.tests.UserApiTests')
+data.setCell(0, 3, 3392);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'commentsOnPost')
+data.setCell(1, 2, 'com.restassured.capstone.tests.PostApiTests')
+data.setCell(1, 3, 602);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchProduct')
+data.setCell(2, 2, 'com.restassured.capstone.tests.PostApiTests')
+data.setCell(2, 3, 592);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getProductDetails')
+data.setCell(3, 2, 'com.restassured.capstone.tests.PostApiTests')
+data.setCell(3, 3, 570);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getAllUsers')
+data.setCell(4, 2, 'com.restassured.capstone.tests.UserApiTests')
+data.setCell(4, 3, 556);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteUser')
+data.setCell(5, 2, 'com.restassured.capstone.tests.UserApiTests')
+data.setCell(5, 3, 462);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getUserById')
+data.setCell(6, 2, 'com.restassured.capstone.tests.UserApiTests')
+data.setCell(6, 3, 435);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'updateUser')
+data.setCell(7, 2, 'com.restassured.capstone.tests.UserApiTests')
+data.setCell(7, 3, 336);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getProductList')
+data.setCell(8, 2, 'com.restassured.capstone.tests.PostApiTests')
+data.setCell(8, 3, 335);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createPostForUser')
+data.setCell(9, 2, 'com.restassured.capstone.tests.PostApiTests')
+data.setCell(9, 3, 317);
+window.suiteTableData['Rest_Assured_Capstone_Suite']= { tableData: data, tableDiv: 'times-div-Rest_Assured_Capstone_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-Rest_Assured_Capstone_Suite">
+              </div> <!-- times-div-Rest_Assured_Capstone_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Rest_Assured_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Rest Assured Capstone Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Rest_Assured_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Rest_Assured_Capstone_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.capstone.tests.UserApiTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">baseSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createUser</span>
+                <span class="method-start">918 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getAllUsers</span>
+                <span class="method-start">4318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserById</span>
+                <span class="method-start">4879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUser</span>
+                <span class="method-start">5317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteUser</span>
+                <span class="method-start">5658 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.restassured.capstone.tests.PostApiTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">baseSetup</span>
+                <span class="method-start">6125 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">createOwnerUser</span>
+                <span class="method-start">6128 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getProductList</span>
+                <span class="method-start">6414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getProductDetails</span>
+                <span class="method-start">6750 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchProduct</span>
+                <span class="method-start">7322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPostForUser</span>
+                <span class="method-start">7916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">commentsOnPost</span>
+                <span class="method-start">8236 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">deleteOwnerUser</span>
+                <span class="method-start">8839 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
